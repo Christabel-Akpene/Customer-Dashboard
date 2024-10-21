@@ -1,0 +1,54 @@
+.btn-container{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10rem;
+    margin-bottom: 30px;
+}
+
+.btn:first-child, .btn:last-child{
+    width: 5rem;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 2rem;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(233, 40, 72);
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .btn:first-child, .btn:last-child{
+    width: 5rem;
+    height: 30px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 1.2rem;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-container{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 2rem;
+    margin-bottom: 30px;
+}
+}
+
